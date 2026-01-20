@@ -4,6 +4,14 @@
 using namespace std;
 
 int main() {
+
+    /*
+     4-bit toplama veya sayı ekleme devresi, çıkarma devresine göre b'ler terslenmez,
+     her bit kendi carry'ine sahiptir ve bu zincirleme mantığı ile her bitten geçer.
+     daha sonra ise final carry-out da sonuç ile beraber yazılır, ki bu da elde/taşmanın
+     olup olmadığı anlaşılabilir.
+    */
+    
     int a0,b0,a1,b1,a2,b2,a3,b3; // input
     int c_in; // input
 
