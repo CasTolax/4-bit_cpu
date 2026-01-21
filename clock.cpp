@@ -40,20 +40,5 @@ int main(){
             std::this_thread::sleep_for(std::chrono::nanoseconds(10000));
         }
     }
-    
-    /*
-    while(true){
-        bool clk = 0;
-
-        while(true){
-            clk = !clk;
-            std::cout << clk  << "\n";
-
-            std::this_thread::sleep_for(std::chrono::seconds(1));
-        }
-    */
-
-    //auto one = 5;
-    //std::this_thread::sleep_for(std::chrono::seconds(one));
 }
 
